@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUESTION 17</title>
+</head>
+<body>
+	<script>
+		var num=parseInt(prompt("Enter the  number"));
+		function fact(a){
+			if(a==0){
+				return 1;
+			}
+			else{
+				return a*fact(a-1);
+			}
+		}
+		if(num>0){
+			var result=fact(num);
+			document.write("Factorial of number is:"+result);
+		}
+	</script>
+</body>
+</html>
